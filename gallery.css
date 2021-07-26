@@ -1,0 +1,14 @@
+#footer{
+    background-color: white;
+    height: 100px;
+    position: relative;
+    top: 1400px;
+    border: 1px solid #010331;
+}
+
+.imgs{
+    height: 50px;
+    position: relative;
+    top: 25px;
+    left: 200px;
+}

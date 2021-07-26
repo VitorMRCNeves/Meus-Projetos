@@ -1,0 +1,17 @@
+
+#imgintro{
+    width: 55%;
+    position: absolute;
+    left: 600px;
+}
+#txtintro{
+    font-size: 23px;
+    text-align: left;
+}
+#title h2{
+    font-size: 70px;
+}
+.move{
+    position: relative;
+    top: 70px;
+}

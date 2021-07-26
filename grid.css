@@ -1,0 +1,60 @@
+#blueGrid{
+    
+    height: 700px;
+    position: absolute;
+    top: 1500px;
+}
+#grid{
+    color:white;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+ 
+  position: relative;
+  top: 280px;
+  grid-area: header;
+  margin-left: 70px;
+}
+
+.headgrid{
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+.grid{
+ position: relative;
+ left: 180px;
+}
+.bodyGrid{
+    font-size: 23px;
+    text-align: left;
+}
+#before1::before{
+    content: "1  ";
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 30px; bottom: 5px;
+    transform: rotate(10deg);
+}
+#title{
+    color: white;
+    position: absolute;
+    top: 110px; left: 100px;
+  
+}
+#before2::before{
+    content: "2  ";
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 30px; bottom: 5px;
+    transform: rotate(10deg);
+}
+#before3::before{
+    content: "3  ";
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 30px; bottom: 5px;
+    transform: rotate(10deg);
+}
